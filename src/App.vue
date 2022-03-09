@@ -21,6 +21,9 @@
               <li class="nav-item">
                 <router-link class="nav-link active" to="/test" >test</router-link>
               </li>
+               <li class="nav-item">
+                <router-link class="nav-link active" to="/TextChange" >TextChange</router-link>
+              </li>
             </ul>
            
           </div>

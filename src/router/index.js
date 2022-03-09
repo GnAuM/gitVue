@@ -5,6 +5,7 @@ import Edit from "@/components/EditComponent.vue";
 import List from "@/components/ListComponent.vue";
 import Book from "@/components/BookComponent.vue";
 import Test from "@/components/Test.vue";
+import TextChange from "@/components/TextTypingCarousel.vue";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/test",
     name: "test",
     component: Test,
+  },
+  {
+    path: "/TextChange",
+    name: "textChange",
+    component: TextChange,
   },
 ];
 

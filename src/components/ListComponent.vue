@@ -24,7 +24,7 @@ export default{
         }
     },
     created(){
-            let apiURL = "https://newsapi.org/v2/everything?q=tesla&from=2022-02-08&sortBy=publishedAt&apiKey=5ceb9cef33674cd18f3efc255941d133";
+            let apiURL = "https://newsapi.org/v2/everything?q=tesla&from=2022-02-09&sortBy=publishedAt&apiKey=5ceb9cef33674cd18f3efc255941d133";
             axios.get(apiURL).then(res =>{
                 this.dataArray = res.data.articles
                 console.log(res.data.articles)
