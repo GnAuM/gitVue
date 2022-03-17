@@ -4,7 +4,7 @@ import Create from "@/components/CreateComponent.vue";
 import Edit from "@/components/EditComponent.vue";
 import List from "@/components/ListComponent.vue";
 import Book from "@/components/BookComponent.vue";
-import Test from "@/components/Test.vue";
+import Tableresponse from "@/components/Test.vue";
 import TextChange from "@/components/TextTypingCarousel.vue";
 
 const routes = [
@@ -34,9 +34,9 @@ const routes = [
     component: Book,
   },
   {
-    path: "/test",
-    name: "test",
-    component: Test,
+    path: "/Tableresponse",
+    name: "tableresponse",
+    component: Tableresponse,
   },
   {
     path: "/TextChange",

@@ -19,7 +19,7 @@
                 <router-link class="nav-link active" to="/ListBook" >ListBook</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link active" to="/test" >test</router-link>
+                <router-link class="nav-link active" to="/Tableresponse" >Tableresponse</router-link>
               </li>
                <li class="nav-item">
                 <router-link class="nav-link active" to="/TextChange" >TextChange</router-link>
